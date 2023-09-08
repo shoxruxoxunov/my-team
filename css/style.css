@@ -998,12 +998,65 @@
     .footer__container {
         padding-top: 6.6rem;
         padding-bottom: 6.5rem;
-      
+        width: 100%;
+        max-width: 327px;
+        margin: auto;
+        margin-left: 221px;
+        margin-bottom: 56px;
+
+
+
     }
 
     .footer-wrapper {
         flex-direction: column;
-        align-items: center;
+        row-gap: 5.4rem;
+
+
+
     }
 
+    .footer__p1 {
+        position: relative;
+        margin-bottom: 4rem;
+    }
+
+    .footer__p {
+        position: absolute;
+        left: -13rem;
+        top: -1rem;
+
+
+    }
+
+    .footer__card3 {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    .footer__website {
+        position: absolute;
+        right: 2rem;
+        bottom: -12rem;
+
+
+    }
+
+    .footer__textd {
+        position: relative;
+    }
+
+    .footer__text {
+        position: absolute;
+        bottom: -64px;
+        left: -186px;
+    }
+
+    .footer__logo {
+        padding-bottom: 2.4rem;
+    }
+
+    .footer__link {
+        padding-bottom: 2.4rem;
+    }
 }
